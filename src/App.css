@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  flex: 8;
+  display: flex;
+  margin-top: 10px;
+}
+.navbar {
+  flex: 2;
+  max-width: 20%;
+  height: auto;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+@media only screen and (max-width: 768px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+}
